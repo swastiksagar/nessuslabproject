@@ -14,7 +14,7 @@ Downloaded the **.exe** from official Nessus [**Downloads**](https://www.tenable
 
 <img width="" height="323" alt="Screenshot 2025-10-10 000836" src="https://github.com/user-attachments/assets/bf9e4a81-5400-4549-a02a-41f1b8848b66" />
 
-Clicked on **I Agree** button to accept the *License Agreement*. After that the **.exe** will start Downloading in your Local machine.
+Clicked on **I Agree** button to accept the *License Agreement*. After that the **.exe** will start Downloading in your Local Computer.
 
 <div align="left"> <h3>Installation</h3></div>
 
