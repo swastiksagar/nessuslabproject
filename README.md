@@ -1,5 +1,5 @@
 <div align="middle">
-<img height="200" src="https://i.postimg.cc/K8X7g9Wd/Copy-of-s-Block.png" />
+<img height="50" src="https://i.postimg.cc/Kv1dMyFJ/68747470733a2f2f7374617469632e74656e61626c652e636f6d2f70726573732f6c6f676f732f54656e61626c654c6f676f.png" />
 </div>
 
 <img width="1920" height="1008" alt="Screenshot 2025-10-10 000818" src="https://github.com/user-attachments/assets/00c0fb42-4954-49bf-8793-4a994ff78c13" />
