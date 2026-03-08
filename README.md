@@ -120,7 +120,9 @@ In the My Scans Dashboard the IP have been listed.
 Now, I will click on *Play* button to scan the IP address.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 004228" src="https://github.com/user-attachments/assets/1257acc6-ca6e-4ff5-a0ce-bd1706bb442a" /><br>
-This is where it gets interesting, I found 2 vulnerabilities that met the threshold for immediate triage.<br>
+This is where it gets interesting, I found **2** *vulnerabilities* that met the threshold for immediate triage.<br>
+
+<div align="left"> <h3>Vulnerability</h3></div>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124324" src="https://github.com/user-attachments/assets/7872bcd3-9856-4c2d-9a30-9de7873893bb" /><br>
 1. SMB Signing not required.<br>
