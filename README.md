@@ -44,31 +44,62 @@ Wait for the Installation get's complete untill the **Status** shows full green 
 
 <div align="left"> <h3>Setup</h3></div>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001018" src="https://github.com/user-attachments/assets/87829f45-964e-4840-9853-2a93a002b901" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001018" src="https://github.com/user-attachments/assets/87829f45-964e-4840-9853-2a93a002b901" /><br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001040" src="https://github.com/user-attachments/assets/e3e60af7-a2ba-41b7-be04-98f3f6c21d81" />
+*Accessing of Nessus Dashboard.*<br>
+⦁ Opened a *browser* and navigated to:<br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001051" src="https://github.com/user-attachments/assets/05aa92ec-6c3e-44b5-9358-b6dc6e8ef5d2" />
+```bash
+  https://<localhost:8834>
+```
+Click on **Connect via SSL** button.
+
+<img width="" height="323" alt="Screenshot 2025-10-10 001040" src="https://github.com/user-attachments/assets/e3e60af7-a2ba-41b7-be04-98f3f6c21d81" /><br>
+
+<img width="" height="323" alt="Screenshot 2025-10-10 001051" src="https://github.com/user-attachments/assets/05aa92ec-6c3e-44b5-9358-b6dc6e8ef5d2" /><br>
+
+Then the browser *Google Chrome, Edge* displayed the **Your connection isn't private** page.<br>
+*Clicked on Advanced -> Continue to website(unsafe).*<br>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001101" src="https://github.com/user-attachments/assets/abc15567-cb4a-4863-8413-8a0d6be42f3e" />
 
+Wait untill Nessus Initialize itself.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 001141" src="https://github.com/user-attachments/assets/99afb881-f5bc-48e3-805b-2e8616338bb3" />
+
+Click on "checkbox" to *Register Offline.* Click on Continue button.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001523" src="https://github.com/user-attachments/assets/4e5a59ee-1cdf-4882-88b0-3ed65c9c614c" />
 
+Select the *Register for Nessus Essentials*. Then click on Continue button.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 001532" src="https://github.com/user-attachments/assets/5bc80cd4-798a-449f-a93d-2544d8ea2456" />
+
+Here, Register with required details or either *skip* this process.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001548" src="https://github.com/user-attachments/assets/7b4b5882-e3a6-4244-b6a0-dfc9ecc2c47a" />
 
+Enter the **Activation Code** recieved in Email or Purchased on the Nessus Platform. Click on continue button.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 001559" src="https://github.com/user-attachments/assets/67d07e94-1dc2-463f-9e1e-b012316c94a1" />
+
+The License Information is visible. Continue after that.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001614" src="https://github.com/user-attachments/assets/d06e256d-3a50-4903-8bfc-9e35a684d9c2" />
 
+Create a user account. Fill the required deatails.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 001623" src="https://github.com/user-attachments/assets/ee287623-5bf9-4305-85c5-c84fb52a86d1" />
+
+Wait for Nessus is Initializing and Downloading the required plugins.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 003141" src="https://github.com/user-attachments/assets/7bea2464-ab39-48bf-9ab5-cd4dfa48c66f" />
 
+**Sign In** using the details earlier used in to create an account.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 003815" src="https://github.com/user-attachments/assets/0fda93df-98c2-4b1e-abd0-597bafd1bae9" />
+
+Dashboard of Nessus.
 
 <img width="" height="323" alt="Screenshot 2025-10-25 131333" src="https://github.com/user-attachments/assets/119838fb-f0c0-41f0-a71d-45efe3b3c017" />
 
@@ -96,7 +127,7 @@ Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
 ```
 HKLM\System\CurrentControlSet\Services\LanManServer\Parameters\RequireSecuritySignature
 ```
-Associated security setting<br>
+Associated security setting.<br>
 Microsoft network server: Digitally sign communications (always). To do this right click on the RequireSecuritySignature file and set value to 1.<br>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124813" src="https://github.com/user-attachments/assets/fedfec28-24e5-4435-9c74-07163082f917" /><br>
