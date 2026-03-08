@@ -13,6 +13,34 @@ Nessus is a widely used, industry‑standard vulnerability scanner developed by 
 ⦁ Use the solutions provided by Nessus if available or do some research online to determine the best way to remediate found vulnerabilities.<br>
 ⦁ Set a threshold for triage and remediation.<br>
 
+<div align="left"> <h3>Lab Architecture</h3></div>
+
+```bash
+                ┌───────────────────────┐
+                │    Target Systems     │
+                │       (Windows)       │
+                └───────────┬───────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │   Nessus Essentials   │
+                │ Vulnerability Scanner │
+                └───────────┬───────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │   Nessus Web UI       │
+                │https://localhost:8834 │
+                └───────────┬───────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │  Analyst Workstation  │
+                │  Review & Remediate   │
+                └───────────────────────┘
+
+```
+
 <div align="left"> <h3>Download</h3></div>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 000818" src="https://github.com/user-attachments/assets/00c0fb42-4954-49bf-8793-4a994ff78c13" />
