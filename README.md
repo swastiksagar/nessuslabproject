@@ -16,28 +16,15 @@ Nessus is a widely used, industry‑standard vulnerability scanner developed by 
 <div align="left"> <h3>Lab Architecture</h3></div>
 
 ```bash
-┌───────────────────────┐
-│    Target Systems     │
-│       (Windows)       │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│   Nessus Essentials   │
-│ Vulnerability Scanner │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│   Nessus Web UI       │
-│https://localhost:8834 │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│  Analyst Workstation  │
-│  Review & Remediate   │
-└───────────────────────┘
++------------------------+          +-----------------------+          +------------------------+
+|     Target Systems     |   --->   |                       |          |                        |
+|       (Windows)        |          |                       |          |                        |
++------------------------+          |                       |          |                        |
+                                    |   Nessus Essentials   |          |   Analyst Workstation  |
++------------------------+   <-->   | Vulnerability Scanner |          |   Review & Remediate   |
+|     Nessus Web UI      |          |                       |          |                        |
+| https://localhost:8834 |          |                       |          |                        |
++------------------------+          +-----------------------+          +------------------------+
 
 ```
 
