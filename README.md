@@ -101,13 +101,23 @@ Wait for Nessus is Initializing and Downloading the required plugins.
 
 Dashboard of Nessus.
 
+<div align="left"> <h3>Scanning</h3></div>
+
 <img width="" height="323" alt="Screenshot 2025-10-25 131333" src="https://github.com/user-attachments/assets/119838fb-f0c0-41f0-a71d-45efe3b3c017" />
+
+I have used *Basic Network Scan* for 'Vulnerabilities'.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 003928" src="https://github.com/user-attachments/assets/e9b944d4-abc9-4f76-adc4-ff49989dd12a" />
 
+I have named my scan as "MSI IP" where used my device IP address `10.170.177.43`.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 003942" src="https://github.com/user-attachments/assets/b16818e4-3fc8-4580-b812-d545ac429473" />
 
+In the My Scans Dashboard the IP have been listed.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 003951" src="https://github.com/user-attachments/assets/9a2af076-c015-46cb-b314-21bda5691a88" />
+
+Now, I will click on *Play* button to scan the IP address.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 004228" src="https://github.com/user-attachments/assets/1257acc6-ca6e-4ff5-a0ce-bd1706bb442a" /><br>
 This is where it gets interesting, I found 2 vulnerabilities that met the threshold for immediate triage.<br>
