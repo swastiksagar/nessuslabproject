@@ -6,6 +6,13 @@
 
 Nessus is a widely used, industry‑standard vulnerability scanner developed by Tenable, designed to identify security flaws, misconfigurations, and missing patches across systems, networks, and applications. It performs thousands of checks with high accuracy, making it a core tool in vulnerability management programs. 
 
+<div align="left"> <h3>Lessons Learned</h3></div>
+1. Establish your scope.<br>
+2. Choose a framework to help in planning and execution.<br>
+3. There will be false positives, keep an eye out for this.<br>
+4. Use the solutions provided by Nessus if available or do some research online to determine the best way to remediate found vulnerabilities.<br>
+5. Set a threshold for triage and remediation.<br>
+
 <div align="left"> <h3>Download</h3></div>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 000818" src="https://github.com/user-attachments/assets/00c0fb42-4954-49bf-8793-4a994ff78c13" />
@@ -75,7 +82,10 @@ Wait for the Installation get's complete untill the **Status** shows full green 
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124324" src="https://github.com/user-attachments/assets/7872bcd3-9856-4c2d-9a30-9de7873893bb" />
 
-<img width="" height="323" alt="Screenshot 2025-10-25 124813" src="https://github.com/user-attachments/assets/fedfec28-24e5-4435-9c74-07163082f917" />
+<img width="" height="323" alt="Screenshot 2025-10-25 124813" src="https://github.com/user-attachments/assets/fedfec28-24e5-4435-9c74-07163082f917" /><br>
+2. SSL Certificate Cannot Be Trusted<br>
+Description: The server’s X.509 certificate cannot be trusted.<br>
 
-<img width="" height="323" alt="Screenshot 2025-10-25 124823" src="https://github.com/user-attachments/assets/20c32705-7421-47d5-b18d-35b642e0d017" />
-
+<img width="" height="323" alt="Screenshot 2025-10-25 124823" src="https://github.com/user-attachments/assets/20c32705-7421-47d5-b18d-35b642e0d017" /><br>
+***False-positive***<br>
+This turned out to be a false-positive as the service running on port **8834/tcp/www** is the Tenable web portal. The output also shows tenable as the issuer. This vulnerability however can be fixed by purchasing or generating a valid SSL certificate on the Nessus web client.<br>
