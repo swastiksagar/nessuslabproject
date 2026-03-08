@@ -109,7 +109,7 @@ I have used *Basic Network Scan* for 'Vulnerabilities'.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 003928" src="https://github.com/user-attachments/assets/e9b944d4-abc9-4f76-adc4-ff49989dd12a" />
 
-I have named my scan as "MSI IP" where used my device IP address `10.170.177.43`.
+I have named my scan as "MSI IP" where used my device IP address **10.170.177.43**.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 003942" src="https://github.com/user-attachments/assets/b16818e4-3fc8-4580-b812-d545ac429473" />
 
@@ -143,7 +143,7 @@ Microsoft network server: Digitally sign communications (always). To do this rig
 <img width="" height="323" alt="Screenshot 2025-10-25 124813" src="https://github.com/user-attachments/assets/fedfec28-24e5-4435-9c74-07163082f917" /><br>
 
 2. SSL Certificate Cannot Be Trusted.<br>
-⦁ Description: The server’s X.509 certificate cannot be trusted.<br>
+⦁ Description: The server’s *X.509* certificate cannot be trusted.<br>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124823" src="https://github.com/user-attachments/assets/20c32705-7421-47d5-b18d-35b642e0d017" /><br>
 ***False-Positive***<br>
