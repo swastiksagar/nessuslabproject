@@ -138,6 +138,9 @@ Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
 
 ***Registry key***<br>
 
+> [!CAUTION]
+> Modifying the Windows Registry without proper understanding can lead to system instability, application malfunctions, security issues, or even a completely unbootable system.
+
 ```
 HKLM\System\CurrentControlSet\Services\LanManServer\Parameters\RequireSecuritySignature
 ```
