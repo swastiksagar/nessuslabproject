@@ -7,11 +7,11 @@
 Nessus is a widely used, industry‑standard vulnerability scanner developed by Tenable, designed to identify security flaws, misconfigurations, and missing patches across systems, networks, and applications. It performs thousands of checks with high accuracy, making it a core tool in vulnerability management programs. 
 
 <div align="left"> <h3>Lessons Learned</h3></div>
-1. Establish your scope.<br>
-2. Choose a framework to help in planning and execution.<br>
-3. There will be false positives, keep an eye out for this.<br>
-4. Use the solutions provided by Nessus if available or do some research online to determine the best way to remediate found vulnerabilities.<br>
-5. Set a threshold for triage and remediation.<br>
+⦁ Establish your scope.<br>
+⦁ Choose a framework to help in planning and execution.<br>
+⦁ There will be false positives, keep an eye out for this.<br>
+⦁ Use the solutions provided by Nessus if available or do some research online to determine the best way to remediate found vulnerabilities.<br>
+⦁ Set a threshold for triage and remediation.<br>
 
 <div align="left"> <h3>Download</h3></div>
 
@@ -78,14 +78,30 @@ Wait for the Installation get's complete untill the **Status** shows full green 
 
 <img width="" height="323" alt="Screenshot 2025-10-10 003951" src="https://github.com/user-attachments/assets/9a2af076-c015-46cb-b314-21bda5691a88" />
 
-<img width="" height="323" alt="Screenshot 2025-10-10 004228" src="https://github.com/user-attachments/assets/1257acc6-ca6e-4ff5-a0ce-bd1706bb442a" />
+<img width="" height="323" alt="Screenshot 2025-10-10 004228" src="https://github.com/user-attachments/assets/1257acc6-ca6e-4ff5-a0ce-bd1706bb442a" /><br>
+This is where it gets interesting, I found 2 vulnerabilities that met the threshold for immediate triage.<br>
 
-<img width="" height="323" alt="Screenshot 2025-10-25 124324" src="https://github.com/user-attachments/assets/7872bcd3-9856-4c2d-9a30-9de7873893bb" />
+<img width="" height="323" alt="Screenshot 2025-10-25 124324" src="https://github.com/user-attachments/assets/7872bcd3-9856-4c2d-9a30-9de7873893bb" /><br>
+1. SMB Signing not required.<br>
+⦁ Description — Signing is not required on the remote SMB server. An unauthenticated, remote attacker can exploit this to conduct man-in-the-middle attacks against the SMB server.<br>
+⦁ Vulnerability Rating — Risk Factor: Medium CVSS v3.0 Base Score 5.3.<br>
+
+#### Remediation
+Details on remediation for this vulnerability is available online [*here*](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/cc731957(v=ws.11)?redirectedfrom=MSDN). You would need to do the following.<br>
+Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
+#### Registry key
+
+```
+HKLM\System\CurrentControlSet\Services\LanManServer\Parameters\RequireSecuritySignature
+```
+Associated security setting<br>
+Microsoft network server: Digitally sign communications (always). To do this right click on the RequireSecuritySignature file and set value to 1.<br>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124813" src="https://github.com/user-attachments/assets/fedfec28-24e5-4435-9c74-07163082f917" /><br>
-2. SSL Certificate Cannot Be Trusted<br>
-Description: The server’s X.509 certificate cannot be trusted.<br>
+
+2. SSL Certificate Cannot Be Trusted.<br>
+⦁ Description: The server’s X.509 certificate cannot be trusted.<br>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124823" src="https://github.com/user-attachments/assets/20c32705-7421-47d5-b18d-35b642e0d017" /><br>
-***False-positive***<br>
+***False-Positive***<br>
 This turned out to be a false-positive as the service running on port **8834/tcp/www** is the Tenable web portal. The output also shows tenable as the issuer. This vulnerability however can be fixed by purchasing or generating a valid SSL certificate on the Nessus web client.<br>
