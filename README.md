@@ -14,17 +14,28 @@ Downloaded the **.exe** from official Nessus [**Downloads**](https://www.tenable
 
 <img width="" height="323" alt="Screenshot 2025-10-10 000836" src="https://github.com/user-attachments/assets/bf9e4a81-5400-4549-a02a-41f1b8848b66" />
 
-Clicked on **I Agree** button to accept the *License Agreement*. After that the **.exe** will start Downloading in your Local Computer.
+Clicked on **I Agree** button to accept the *License Agreement*. After that the **.exe** will start Downloading in your Local Computer.<br>
+
 
 <div align="left"> <h3>Installation</h3></div>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 000900" src="https://github.com/user-attachments/assets/ebdab055-fcfa-4fb3-a313-4bdc6342e271" />
 
+Double click on the .exe file. After that click on *Next >* button.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 000907" src="https://github.com/user-attachments/assets/99b0cd19-bb20-4ee7-a47b-d919468a304f" />
+
+Click on *I accept the terms in the license agreement* then click on *Next >* button.
 
 <img width="" height="323" alt="Screenshot 2025-10-10 000916" src="https://github.com/user-attachments/assets/b960d3dc-37b7-480b-a0c9-ea11e6429c62" />
 
+Set the **Destination Folder** for the Installation on your preferences. Then click on *Next >* button.
+
 <img width="" height="323" alt="Screenshot 2025-10-10 000923" src="https://github.com/user-attachments/assets/bf43cd35-3b01-4665-b49b-4ef53f30ef31" />
+
+Wait for the Installation get's complete untill the **Status** shows full green bar. 
+
+<div align="left"> <h3>Setup</h3></div>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001018" src="https://github.com/user-attachments/assets/87829f45-964e-4840-9853-2a93a002b901" />
 
