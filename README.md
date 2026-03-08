@@ -86,10 +86,12 @@ This is where it gets interesting, I found 2 vulnerabilities that met the thresh
 ⦁ Description — Signing is not required on the remote SMB server. An unauthenticated, remote attacker can exploit this to conduct man-in-the-middle attacks against the SMB server.<br>
 ⦁ Vulnerability Rating — Risk Factor: Medium CVSS v3.0 Base Score 5.3.<br>
 
-#### Remediation
+***Remediation***<br>
+
 Details on remediation for this vulnerability is available online [*here*](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/cc731957(v=ws.11)?redirectedfrom=MSDN). You would need to do the following.<br>
 Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
-#### Registry key
+
+***Registry key***<br>
 
 ```
 HKLM\System\CurrentControlSet\Services\LanManServer\Parameters\RequireSecuritySignature
