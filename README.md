@@ -131,6 +131,8 @@ This is where it gets interesting, I found **2** *vulnerabilities* that met the 
 
 ***Remediation***<br>
 
+<img width="" height="310" alt="Screenshot 2026-03-09 000053" src="https://github.com/user-attachments/assets/96a8978b-7fb1-4312-a5ec-b92e60414361" />
+
 Details on remediation for this vulnerability is available online [*here*](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/cc731957(v=ws.11)?redirectedfrom=MSDN). You would need to do the following.<br>
 Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
 
