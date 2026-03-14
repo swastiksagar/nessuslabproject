@@ -59,7 +59,7 @@ Wait for the Installation get's complete untill the **Status** shows full green 
 
 <div align="left"> <h3>Setup</h3></div>
 
-<img width="" height="30" alt="image" src="https://github.com/user-attachments/assets/6ef9c604-21cb-45a4-9795-1c08839e1b36" />
+<img width="" height="45" alt="image" src="https://github.com/user-attachments/assets/6ef9c604-21cb-45a4-9795-1c08839e1b36" />
 
 Click on this button in program to Start the Nessus.
 
