@@ -4,14 +4,15 @@
 
 <div align="left"> <h3>Description</h3></div>
 
-Nessus is a widely used, industry‑standard vulnerability scanner developed by Tenable, designed to identify security flaws, misconfigurations, and missing patches across systems, networks, and applications. It performs thousands of checks with high accuracy, making it a core tool in vulnerability management programs. 
+*Nessus is a widely used, industry‑standard vulnerability scanner developed by Tenable, designed to identify security flaws, misconfigurations, and missing patches across systems, networks, and applications. It performs thousands of checks with high accuracy, making it a core tool in vulnerability management programs.* 
 
 <div align="left"> <h3>Lessons Learned</h3></div>
-⦁ Establish your scope.<br>
-⦁ Choose a framework to help in planning and execution.<br>
-⦁ There will be false positives, keep an eye out for this.<br>
-⦁ Use the solutions provided by Nessus if available or do some research online to determine the best way to remediate found vulnerabilities.<br>
-⦁ Set a threshold for triage and remediation.<br>
+
+⦁ *Establish your scope.* <br>
+⦁ *Choose a framework to help in planning and execution.* <br>
+⦁ *There will be false positives, keep an eye out for this.* <br>
+⦁ *Use the solutions provided by Nessus if available or do some research online to determine the best way to remediate found vulnerabilities.* <br>
+⦁ *Set a threshold for triage and remediation.* <br>
 
 <div align="left"> <h3>Lab Architecture</h3></div>
 
@@ -30,132 +31,133 @@ Nessus is a widely used, industry‑standard vulnerability scanner developed by 
 
 <div align="left"> <h3>Download</h3></div>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 000818" src="https://github.com/user-attachments/assets/00c0fb42-4954-49bf-8793-4a994ff78c13" />
+<img width="" height="323" alt="Screenshot 2025-10-10 000818" src="https://github.com/user-attachments/assets/00c0fb42-4954-49bf-8793-4a994ff78c13" /><br>
 
-Downloaded the **.exe** from official Nessus [**Downloads**](https://www.tenable.com/downloads/nessus?loginAttempted=true) section.<br>
+*Downloaded the **.exe** from official Nessus [**Downloads**](https://www.tenable.com/downloads/nessus?loginAttempted=true) section.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 000836" src="https://github.com/user-attachments/assets/bf9e4a81-5400-4549-a02a-41f1b8848b66" />
+<img width="" height="323" alt="Screenshot 2025-10-10 000836" src="https://github.com/user-attachments/assets/bf9e4a81-5400-4549-a02a-41f1b8848b66" /><br>
 
-Clicked on **I Agree** button to accept the *License Agreement*. After that the **.exe** will start Downloading in your Local Computer.<br>
+*Clicked on **I Agree** button to accept the *License Agreement*. After that the **.exe** will start Downloading in your Local Computer.* <br>
 
 
 <div align="left"> <h3>Installation</h3></div>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 000900" src="https://github.com/user-attachments/assets/ebdab055-fcfa-4fb3-a313-4bdc6342e271" />
+<img width="" height="323" alt="Screenshot 2025-10-10 000900" src="https://github.com/user-attachments/assets/ebdab055-fcfa-4fb3-a313-4bdc6342e271" /> <br>
 
-Double click on the .exe file. After that click on *Next >* button.
+*Double click on the .exe file. After that click on *Next >* button.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 000907" src="https://github.com/user-attachments/assets/99b0cd19-bb20-4ee7-a47b-d919468a304f" />
+<img width="" height="323" alt="Screenshot 2025-10-10 000907" src="https://github.com/user-attachments/assets/99b0cd19-bb20-4ee7-a47b-d919468a304f" /><br>
 
-Click on *I accept the terms in the license agreement* then click on *Next >* button.
+*Click on *I accept the terms in the license agreement* then click on *Next >* button.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 000916" src="https://github.com/user-attachments/assets/b960d3dc-37b7-480b-a0c9-ea11e6429c62" />
+<img width="" height="323" alt="Screenshot 2025-10-10 000916" src="https://github.com/user-attachments/assets/b960d3dc-37b7-480b-a0c9-ea11e6429c62" /><br>
 
-Set the **Destination Folder** for the Installation on your preferences. Then click on *Next >* button.
+*Set the **Destination Folder** for the Installation on your preferences. Then click on *Next >* button.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 000923" src="https://github.com/user-attachments/assets/bf43cd35-3b01-4665-b49b-4ef53f30ef31" />
+<img width="" height="323" alt="Screenshot 2025-10-10 000923" src="https://github.com/user-attachments/assets/bf43cd35-3b01-4665-b49b-4ef53f30ef31" /><br>
 
-Wait for the Installation get's complete untill the **Status** shows full green bar. 
+*Wait for the Installation get's complete untill the **Status** shows full green bar.* <br>
 
 <div align="left"> <h3>Setup</h3></div>
 
-<img width="" height="45" alt="image" src="https://github.com/user-attachments/assets/6ef9c604-21cb-45a4-9795-1c08839e1b36" />
+<img width="" height="45" alt="image" src="https://github.com/user-attachments/assets/6ef9c604-21cb-45a4-9795-1c08839e1b36" /><br>
 
-Click on this button in program to Start the Nessus.
+*Click on this button in program to Start the Nessus.* <br>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001018" src="https://github.com/user-attachments/assets/87829f45-964e-4840-9853-2a93a002b901" /><br>
 
-*Accessing of Nessus Dashboard.*<br>
-⦁ Opened a *browser* and navigated to:<br>
+*Accessing of Nessus Dashboard.* <br>
+⦁ *Opened a *browser* and navigated to:* <br>
 
 ```bash
   https://<localhost:8834>
 ```
-Click on **Connect via SSL** button.
+*Click on **Connect via SSL** button.* <br>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001040" src="https://github.com/user-attachments/assets/e3e60af7-a2ba-41b7-be04-98f3f6c21d81" /><br>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 001051" src="https://github.com/user-attachments/assets/05aa92ec-6c3e-44b5-9358-b6dc6e8ef5d2" /><br>
 
-Then the browser *Google Chrome, Edge* displayed the **Your connection isn't private** page.<br>
-*Clicked on Advanced -> Continue to website(unsafe).*<br>
+*Then the browser *Google Chrome, Edge* displayed the **Your connection isn't private** page.* <br>
+*Clicked on Advanced -> Continue to website(unsafe).* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001101" src="https://github.com/user-attachments/assets/abc15567-cb4a-4863-8413-8a0d6be42f3e" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001101" src="https://github.com/user-attachments/assets/abc15567-cb4a-4863-8413-8a0d6be42f3e" /> <br>
 
-Wait untill Nessus Initialize itself.
+*Wait untill Nessus Initialize itself.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001141" src="https://github.com/user-attachments/assets/99afb881-f5bc-48e3-805b-2e8616338bb3" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001141" src="https://github.com/user-attachments/assets/99afb881-f5bc-48e3-805b-2e8616338bb3" /> <br>
 
-Click on "checkbox" to *Register Offline.* Click on Continue button.
+*Click on "checkbox" to *Register Offline.* Click on Continue button.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001523" src="https://github.com/user-attachments/assets/4e5a59ee-1cdf-4882-88b0-3ed65c9c614c" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001523" src="https://github.com/user-attachments/assets/4e5a59ee-1cdf-4882-88b0-3ed65c9c614c" /> <br>
 
-Select the *Register for Nessus Essentials*. Then click on Continue button.
+*Select the *Register for Nessus Essentials*. Then click on Continue button.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001532" src="https://github.com/user-attachments/assets/5bc80cd4-798a-449f-a93d-2544d8ea2456" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001532" src="https://github.com/user-attachments/assets/5bc80cd4-798a-449f-a93d-2544d8ea2456" /> <br>
 
-Here, Register with required details or either *skip* this process.
+*Here, Register with required details or either *skip* this process.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001548" src="https://github.com/user-attachments/assets/7b4b5882-e3a6-4244-b6a0-dfc9ecc2c47a" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001548" src="https://github.com/user-attachments/assets/7b4b5882-e3a6-4244-b6a0-dfc9ecc2c47a" /> <br>
 
-Enter the **Activation Code** recieved in Email or Purchased on the Nessus Platform. Click on continue button.
+*Enter the **Activation Code** recieved in Email or Purchased on the Nessus Platform. Click on continue button.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001559" src="https://github.com/user-attachments/assets/67d07e94-1dc2-463f-9e1e-b012316c94a1" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001559" src="https://github.com/user-attachments/assets/67d07e94-1dc2-463f-9e1e-b012316c94a1" /><br>
 
-The License Information is visible. Continue after that.
+*The License Information is visible. Continue after that.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001614" src="https://github.com/user-attachments/assets/d06e256d-3a50-4903-8bfc-9e35a684d9c2" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001614" src="https://github.com/user-attachments/assets/d06e256d-3a50-4903-8bfc-9e35a684d9c2" /><br>
 
-Create a user account. Fill the required deatails.
+*Create a user account. Fill the required deatails.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 001623" src="https://github.com/user-attachments/assets/ee287623-5bf9-4305-85c5-c84fb52a86d1" />
+<img width="" height="323" alt="Screenshot 2025-10-10 001623" src="https://github.com/user-attachments/assets/ee287623-5bf9-4305-85c5-c84fb52a86d1" /><br>
 
-Wait for Nessus is Initializing and Downloading the required plugins.
+*Wait for Nessus is Initializing and Downloading the required plugins.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 003141" src="https://github.com/user-attachments/assets/7bea2464-ab39-48bf-9ab5-cd4dfa48c66f" />
+<img width="" height="323" alt="Screenshot 2025-10-10 003141" src="https://github.com/user-attachments/assets/7bea2464-ab39-48bf-9ab5-cd4dfa48c66f" /><br>
 
-**Sign In** using the details earlier used in to create an account.
+***Sign In** using the details earlier used in to create an account.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 003815" src="https://github.com/user-attachments/assets/0fda93df-98c2-4b1e-abd0-597bafd1bae9" />
+<img width="" height="323" alt="Screenshot 2025-10-10 003815" src="https://github.com/user-attachments/assets/0fda93df-98c2-4b1e-abd0-597bafd1bae9" /><br>
 
-Dashboard of Nessus.
+*Dashboard of Nessus.* <br>
 
 <div align="left"> <h3>Scanning</h3></div>
 
-<img width="" height="323" alt="Screenshot 2025-10-25 131333" src="https://github.com/user-attachments/assets/119838fb-f0c0-41f0-a71d-45efe3b3c017" />
+<img width="" height="323" alt="Screenshot 2025-10-25 131333" src="https://github.com/user-attachments/assets/119838fb-f0c0-41f0-a71d-45efe3b3c017" /><br>
 
-I have used *Basic Network Scan* for 'Vulnerabilities'.
+*I have used *Basic Network Scan* for 'Vulnerabilities'.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 003928" src="https://github.com/user-attachments/assets/e9b944d4-abc9-4f76-adc4-ff49989dd12a" />
+<img width="" height="323" alt="Screenshot 2025-10-10 003928" src="https://github.com/user-attachments/assets/e9b944d4-abc9-4f76-adc4-ff49989dd12a" /><br>
 
-I have named My scan as "MSI IP" where used my device IP address **10.170.177.43**
+*I have named My scan as "MSI IP" where used my device IP address **10.170.177.43*** <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 003942" src="https://github.com/user-attachments/assets/b16818e4-3fc8-4580-b812-d545ac429473" />
+<img width="" height="323" alt="Screenshot 2025-10-10 003942" src="https://github.com/user-attachments/assets/b16818e4-3fc8-4580-b812-d545ac429473" /><br>
 
-In the My Scans Dashboard the IP have been listed.
+*In the My Scans Dashboard the IP have been listed.* <br>
 
-<img width="" height="323" alt="Screenshot 2025-10-10 003951" src="https://github.com/user-attachments/assets/9a2af076-c015-46cb-b314-21bda5691a88" />
+<img width="" height="323" alt="Screenshot 2025-10-10 003951" src="https://github.com/user-attachments/assets/9a2af076-c015-46cb-b314-21bda5691a88" /><br>
 
-Now, I will click on *Play* button to scan the IP address.
+*Now, I will click on *Play* button to scan the IP address.* <br>
 
 <img width="" height="323" alt="Screenshot 2025-10-10 004228" src="https://github.com/user-attachments/assets/1257acc6-ca6e-4ff5-a0ce-bd1706bb442a" /><br>
-This is where it gets interesting, I found **2** *vulnerabilities* that met the threshold for immediate triage.<br>
+
+*This is where it gets interesting, I found **2** *vulnerabilities* that met the threshold for immediate triage.* <br>
 
 <div align="left"> <h3>Vulnerability</h3></div>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124324" src="https://github.com/user-attachments/assets/7872bcd3-9856-4c2d-9a30-9de7873893bb" /><br>
-1. SMB Signing not required.<br>
-⦁ Description — Signing is not required on the remote SMB server. An unauthenticated, remote attacker can exploit this to conduct man-in-the-middle attacks against the SMB server.<br>
-⦁ Vulnerability Rating — Risk Factor: Medium CVSS v3.0 Base Score 5.3.<br>
+1. *SMB Signing not required.* <br>
+⦁ *Description — Signing is not required on the remote SMB server. An unauthenticated, remote attacker can exploit this to conduct man-in-the-middle attacks against the SMB server.* <br>
+⦁ *Vulnerability Rating — Risk Factor: Medium CVSS v3.0 Base Score 5.3.* <br>
 
 ***Remediation***<br>
 
-<img width="" height="310" alt="Screenshot 2026-03-09 000053" src="https://github.com/user-attachments/assets/96a8978b-7fb1-4312-a5ec-b92e60414361" />
+<img width="" height="310" alt="Screenshot 2026-03-09 000053" src="https://github.com/user-attachments/assets/96a8978b-7fb1-4312-a5ec-b92e60414361" /><br>
 
-Details on remediation for this vulnerability is available online [*here*](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/cc731957(v=ws.11)?redirectedfrom=MSDN). You would need to do the following.<br>
-Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
+*Details on remediation for this vulnerability is available online [*here*](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/cc731957(v=ws.11)?redirectedfrom=MSDN). You would need to do the following.* <br>
+*Open Register editor under **HKEY_LOCAL_MACHINE** folder.* <br>
 
-***Registry key***<br>
+***Registry key*** <br>
 
 > [!CAUTION]
 > Modifying the Windows Registry without proper understanding can lead to system instability, application malfunctions, security issues, or even a completely unbootable system.
@@ -163,14 +165,15 @@ Open Register editor under **HKEY_LOCAL_MACHINE** folder.<br>
 ```
 HKLM\System\CurrentControlSet\Services\LanManServer\Parameters\RequireSecuritySignature
 ```
-Associated security setting.<br>
-Microsoft network server: Digitally sign communications (always). To do this right click on the RequireSecuritySignature file and set value to 1.<br>
+*Associated security setting.* <br>
+*Microsoft network server: Digitally sign communications (always). To do this right click on the RequireSecuritySignature file and set value to 1.* <br>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124813" src="https://github.com/user-attachments/assets/fedfec28-24e5-4435-9c74-07163082f917" /><br>
 
-2. SSL Certificate Cannot Be Trusted.<br>
-⦁ Description: The server’s *X.509* certificate cannot be trusted.<br>
+2. *SSL Certificate Cannot Be Trusted.* <br>
+⦁ *Description: The server’s *X.509* certificate cannot be trusted.* <br>
 
 <img width="" height="323" alt="Screenshot 2025-10-25 124823" src="https://github.com/user-attachments/assets/20c32705-7421-47d5-b18d-35b642e0d017" /><br>
-***False-Positive***<br>
-This turned out to be a false-positive as the service running on port **8834/tcp/www** is the Tenable web portal. The output also shows tenable as the issuer. This vulnerability however can be fixed by purchasing or generating a valid SSL certificate on the Nessus web client.<br>
+
+***False-Positive*** <br>
+*This turned out to be a false-positive as the service running on port **8834/tcp/www** is the Tenable web portal. The output also shows tenable as the issuer. This vulnerability however can be fixed by purchasing or generating a valid SSL certificate on the Nessus web client.* <br>
