@@ -1,4 +1,4 @@
-<div align="middle">
+<div align="left">
 <img height="200" src="https://i.postimg.cc/wBhZh7gg/Copilot-20260308-225146.png" />
 </div>
 
